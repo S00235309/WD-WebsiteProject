@@ -1,0 +1,445 @@
+
+
+body
+{
+    font-family: "Hogwarts";
+    font-size: 100%;
+    color: #252121;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header
+{
+    text-align: center;
+    background-image: url(../images/legacy-game-pic.webp);                                                                               /* Background Image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+
+header img
+{
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 2em;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+nav button a
+{
+    text-decoration: none;
+    color: #646464;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.dropdown-content a
+{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sylfaen;
+    color: #646464;
+}
+
+.dropdown-content a:hover
+{
+    background-color: rgb(165, 70, 144);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+
+
+
+#Active
+{
+    background-color: rgb(128, 40, 123);
+}
+
+#Active:hover
+{
+    background-color: rgb(190, 90, 33);
+}
+
+.Active
+{
+    background-color: rgb(52, 30, 63);
+}
+
+main
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.disclaimer
+{
+    font-family: sylfaen;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.disclaimerLink
+{
+    font-family: sylfaen;
+    font-size: 1.1em;
+    margin-bottom: 5em;
+}
+
+#textLeft
+{
+    font-family: sylfaen;
+    font-size: 1.5em;
+    float: center;
+    column-count: 1;
+   
+    margin-bottom: 5em;
+    text-align: justify;
+}
+
+#textRight
+{
+    font-family: sylfaen;
+    font-size: 1.5em;
+    float: right;
+    column-count: 1;
+   
+    margin-bottom: 5em;
+}
+
+.center
+{
+    text-align: center;
+}
+
+#textRight ul
+{
+    font-size: .9em;
+    text-align: justify;
+}
+
+
+
+#sectionHeading
+{
+    font-family: sylfaen;
+    font-size: 4em;
+    text-align: center;
+}
+
+#textBoth
+{
+    font-family: sylfaen;
+    font-size: 1.5em;
+    column-count: 2;
+    column-gap: 5%;
+    column-rule: 1px solid orange;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.justify
+{
+    text-align: justify;
+}
+
+footer
+{
+    clear: both;
+    position: relative;
+    height: 150px;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 0;
+    background-color: #af825d;
+    text-align: center;
+    font-family: sylfaen;
+}
+
+footer a
+{
+    color: #646464;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+footer ul
+{
+    font-size: 1.2em;
+}
+
+footer ul li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer ul li a
+{
+    color: #646464;
+    text-decoration: none;
+    font-family: sylfaen;
+}
+
+.footerLink
+{
+    color: orange;
+}
+
+.navImg
+{
+    text-align: center;
+}
+
+footer ul li:hover
+{
+    background-color: white;
+}
+
+.logo
+{
+    padding-top: 2em;
+}
+
+#pageTitle
+{
+    font-size: 5.5em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+#floatedVidR
+{
+    text-align: right;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border: 2px solid orange;
+}
+
+.floatedVidL
+{
+    text-align: left;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border: 2px solid orange;
+}
+
+.floatedImgL
+{
+    text-align: left;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.floatR
+{
+    text-align: justify;
+    padding-top: .2em;
+}
+
+.externalLink
+{
+    color: orange;
+}
+
+.clearNewSection
+{
+    clear: both;
+    font-size: 1.1em;
+}
+
+
+#topMargin
+{
+    margin-top: 1px;
+}
+
+
+
+th
+{
+    border: 1px solid #d38407;
+    text-align: center;
+    background-color: #b2b2b2;
+}
+
+tr, td
+{
+    border: 1px solid #d38407;
+    text-align: center;
+}
+
+Table tr:nth-child(even)
+{
+    background-color: #edecec;
+}
+
+#floatedImgR
+{
+    text-align: right;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+#floatL
+{
+    text-align: justify;
+    padding-top: 1.8em;
+}
+
+#lastSection
+{
+    margin-bottom: 50px;
+}
+
+
+.h3headingtop
+{
+    text-align: center;
+    margin-top: 1px;
+}
+
+.h3headingbottom
+{
+    text-align: center;
+    margin-top: 98px;
+}
+
+#storyText
+{
+    text-align: justify;
+    padding-top: .5em;
+}
+
+#features
+{
+    text-align: justify;
+    padding-top: 6em;
+}
+
+#visualColumn
+{
+    font-family: sylfaen;
+    font-size: .8em;
+    column-count: 2;
+    column-gap: 5%;
+    column-rule: 1px solid orange;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+#mainHeading
+{
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+#form
+{
+    font-family: sylfaen;
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid orange;
+    min-height: 1570px;
+    width: 700px;
+}
+
+.required
+{
+    font-weight: bold;
+    color: red;
+}
+
+label
+{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input
+{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"]
+{
+    width: 10px;
+}
+
+input[type="checkbox"]
+{
+    width: 15px;
+}
+
+.formTitles
+{
+    padding-top: 10px;
+}
+
+.formContents
+{
+    margin-top: 10px;
+}
+
+#button
+{
+    margin-left: 138px;
+}
+
+#button, #reset
+{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.formPageTitles
+{
+    font-family: sylfaen;
+    float: right;
+}
+
+.orangeBorder
+{
+    border: 2px solid orange;
+}
