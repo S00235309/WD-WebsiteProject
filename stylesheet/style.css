@@ -4,7 +4,7 @@ body
 {
     font-family: "Hogwarts";
     font-size: 100%;
-    color: #252121;
+    color: #141313;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -31,6 +31,7 @@ header img
 {
     position: relative;
     display: inline-block;
+    width: 100px;
 }
 
 
@@ -80,7 +81,7 @@ nav button a
 
 #Active:hover
 {
-    background-color: rgb(190, 90, 33);
+    background-color: rgb(116, 84, 65);
 }
 
 .Active
@@ -92,6 +93,7 @@ main
 {
     margin-left: 5%;
     margin-right: 5%;
+    text-decoration: white;
 }
 
 .disclaimer
