@@ -9,9 +9,9 @@
 <head>
 	<meta charset="utf-8" /> <!-- 8-bit character encoding capable of encoding all possible characters -->
 	<meta name="description" content="Fan-Made Hogwarts, for a college project.  This is the Home page for the Hogwarts website.">
-	<meta name="keywords" content="History, Houses, About">
+	<meta name="keywords" content="home, info, trailer, franchise,game">
 	<meta name="author" content="Tori Beecham">
-	<title>Hogwarts Legacy Game</title>
+	<title>Hogwarts Legacy</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css"/>                                      
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
     <style>
@@ -26,55 +26,83 @@
         <!-- Inline styling for logo image, along with anchor link to index.html -->
         <a href="index.html"><img src="images/hogwartslegacyworld.jpeg" alt="Hogwarts legacy game logo"></a>
        
-        <nav>
-            <section class="dropdown">
-                <button id="Active" class="dropbtn"><a href="index.html"><b>HOME</b></a></button>
-                <div class="dropdown-content">
-                 
-                </div>
-            </section>
-            <section class="dropdown">
-                <button class="dropbtn"><a href="history.html"><b>HISTORY</b></a></button>
-                <div class="dropdown-content">
-                   
-                </div>
-            </section>
-            <section class="dropdown">
-                <button class="dropbtn"><a href="houses.html"><b>HOUSE</b></a></button>
-                <div class="dropdown-content">
-                  
-                </div>
-            </section>
-            <section class="dropdown">
-                <button class="dropbtn"><a href="about.html"><b>ABOUT</b></a></button>
-                <div class="dropdown-content">
-            
-                </div>
-            </section>
-        </nav>
+          <!-- Anchor name reference for top of page -->
+          <a name="pagetop"></a>
+          <nav>
+              <div class="dropdown">
+                  <button id="Active"  class="dropbtn"><a href="index.html"><b>HOME</b></a></button>
+                  <div class="dropdown-content">
+                      <a href="#info">Background Information</a>
+                      <a href="#trailer">Trailer</a>  
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn"><a href="franchise.html"><b>FRANCHISE</b></a></button>
+                  <div class="dropdown-content">
+                      <a href="franchise.html">Books</a>
+                      <a href="franchise.html">Movies</a>
+                      <a href="franchise.html">Houses</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn"><a href="game.html"><b>GAME</b></a></button>
+                  <div class="dropdown-content">
+                      <a href="game.html">Introduction</a>
+                      <a href="game.html">Features</a>
+                      <a href="game.html">Spells</a>
+                      <a href="game.html">Character</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn"><a href="contactForm.html"><b>CONTACT FORM</b></a></button>
+                  <div class="dropdown-content">
+                      <a href="contactform.html">Contact Form</a>
+                      <a href="contactform.html">Google Map</a>
+                  </div>
+              </div>
+          </nav>
 	</header>
     
     <main> <!-- Main wrapper tag, that goes around main content -->
         <section>
-            <h1>HOGWARTS Legacy Game </h1>
-            <h4 class="disclaimerLink">This is a college project, completed as part of an assignment.  All sources of information are at the bottom of the page.</h4>
+            <h1>Hogwarts Legacy</h1>
+               <!-- Anchor name reference for background info -->
+          <a name="info"></a>
+            <h4 class="disclaimerLink">This is a college project, completed as part of an assignment.</h4>
         </section>
         
-        <section>
-            <h2 class="center">Genaral Information</h2>
+       
+        <section id="textLeft">
+            <h2 class="center">Background</h2>
             <p>Hogwarts Legacy is an upcoming action role-playing video game set in the Harry Potter universe, developed by Avalanche Software and published by Warner Bros. Interactive Entertainment. The game is set in the late 1800s, before the events of the Harry Potter series, and players will be able to create their own character and attend Hogwarts School of Witchcraft and Wizardry. Players will be able to explore the open world of Hogwarts and its surrounding areas, attend classes, learn spells, and interact with other characters. The game promises to have a deep and immersive narrative, with player choices impacting the story and the game's world.</p>
-            <img style="margin-left: 23%;margin-right: 15%;" src="images/pic-bottomhome.webp" alt="Example picture  of game" height="500" width="50%">
+            <img style="float:right;" src="images/homecastle.jpg" alt="Example picture  of game" height="450px" width="800px">
             
                                                                 
-        </section>                                                                                                                                                            
+        </section>
+        
+        
+        <section id="textLeft">
+            <h2 class="center">Hogwarts Legacy OUT NOW!</h2>
+            <p>Hogwarts Legacy officially launched on February 10,  for PS5, Xbox Series X/S and PC players. So you can buy the game now. The remaining Hogwarts legacy release dates for PS4 and Xbox One will be May 5th and for Nintendo Swith players will sadly have to wait unitl July 25th.</p>
+            <iframe style="float:right; padding-bottom: 100px;" width="800" height="450" src="https://www.youtube.com/embed/1O6Qstncpnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        
         
                                                                                                                                                                 
     </main>
+  
     <footer>  <!-- Footer grouping of content for the bottom of the screen and will need css to place at the bottom  -->
         <a href="#top"><b> Go To Top Of Page </b></a>
-                                                                                            
-        <p><b>Find more information on Hogwarts Legacy Game on the <a class="footerLink" href="https://www.hogwartslegacy.com/en-gb">Official Hogwarts Legacy Website</a>.</b></p> <!-- External Links to External Website -->
-        <p><b>Copyright&copy; 2023</b></p>
+           <!-- Anchor name reference for trailer -->
+     <a name="trailer"></a>
+        <ul> <!-- unordered list -->
+            <li class="Active"><a href="index.html"><b>HOME</b></a></li>
+            <li><a href="franchise.html"><b>FRANCHISE</b></a></li>
+            <li><a href="game.html"><b>GAME</b></a></li>
+            <li><a href="contactform.html"><b>CONTACT FORM</b></a></li>
+        </ul>                                                                                 
+        <p style="color: white"><b>Find more information on Hogwarts Legacy Game on the <a class="footerLink" href="https://www.hogwartslegacy.com/en-gb">Official Hogwarts Legacy Website</a>.</b></p> <!-- External Links to External Website -->
+        <p style="color: white"><b>Copyright&copy; 2023</b></p>
     </footer>
 </body>
 </html>

@@ -31,16 +31,25 @@ header img
 {
     position: relative;
     display: inline-block;
-    width: 100px;
 }
 
+.dropbtn
+{
+    font-size: 1.4em;
+    font-family: sylfaen;
+    color: white;
+    background-color: #353333;
+}
 
-
+.dropbtn:hover
+{
+    background-color: darkgray;
+}
 
 nav button a
 {
     text-decoration: none;
-    color: #646464;
+    color: white;
 }
 
 .dropdown-content
@@ -49,7 +58,7 @@ nav button a
     position: absolute;
     width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: white;
+    background-color: black;
 }
 
 .dropdown-content a
@@ -58,12 +67,12 @@ nav button a
     text-decoration: none;
     display: block;
     font-family: sylfaen;
-    color: #646464;
+    color: white;
 }
 
 .dropdown-content a:hover
 {
-    background-color: rgb(165, 70, 144);
+    background-color: #97368f;
 }
 
 .dropdown:hover .dropdown-content
@@ -71,22 +80,19 @@ nav button a
     display: block;
 }
 
-
-
-
 #Active
 {
-    background-color: rgb(128, 40, 123);
+    background-color: #97368f;
 }
 
 #Active:hover
 {
-    background-color: rgb(116, 84, 65);
+    background-color: darkgray;
 }
 
 .Active
 {
-    background-color: rgb(52, 30, 63);
+    background-color: #97368f;
 }
 
 main
@@ -114,9 +120,10 @@ main
 {
     font-family: sylfaen;
     font-size: 1.5em;
-    float: center;
-    column-count: 1;
-   
+    float: left;
+    column-count: 2;
+    column-gap: 5%;
+    column-rule: 1px solid #97368f;
     margin-bottom: 5em;
     text-align: justify;
 }
@@ -126,10 +133,14 @@ main
     font-family: sylfaen;
     font-size: 1.5em;
     float: right;
-    column-count: 1;
-   
+    column-count: 2;
+    column-gap: 5%;
+    column-rule: 1px solid #97368f;
     margin-bottom: 5em;
+    text-align: justify;
 }
+
+
 
 .center
 {
@@ -144,23 +155,9 @@ main
 
 
 
-#sectionHeading
-{
-    font-family: sylfaen;
-    font-size: 4em;
-    text-align: center;
-}
 
-#textBoth
-{
-    font-family: sylfaen;
-    font-size: 1.5em;
-    column-count: 2;
-    column-gap: 5%;
-    column-rule: 1px solid orange;
-    text-align: center;
-    margin-bottom: 50px;
-}
+
+
 
 .justify
 {
@@ -175,14 +172,14 @@ footer
     width: 100%;
     margin-top: 1em;
     margin-bottom: 0;
-    background-color: #af825d;
+    background-color: #353333;
     text-align: center;
     font-family: sylfaen;
 }
 
 footer a
 {
-    color: #646464;
+    color: white;
     text-decoration: none;
     text-decoration: underline;
 }
@@ -203,102 +200,65 @@ footer ul li
 
 footer ul li a
 {
-    color: #646464;
+    color: white;
     text-decoration: none;
     font-family: sylfaen;
 }
 
 .footerLink
 {
-    color: orange;
+    color: #97368f;
 }
 
-.navImg
-{
-    text-align: center;
-}
+
 
 footer ul li:hover
 {
-    background-color: white;
-}
-
-.logo
-{
-    padding-top: 2em;
-}
-
-#pageTitle
-{
-    font-size: 5.5em;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+    background-color:  darkgray;
 }
 
 
 
-#floatedVidR
-{
-    text-align: right;
-    float: right;
-    margin-left: 2em;
-    margin-bottom: 2em;
-    border: 2px solid orange;
-}
 
-.floatedVidL
-{
-    text-align: left;
-    float: left;
-    margin-right: 2em;
-    margin-bottom: 2em;
-    border: 2px solid orange;
-}
 
-.floatedImgL
+.backgroundsection
 {
-    text-align: left;
-    float: left;
-    margin-right: 2em;
-    margin-bottom: 2em;
-}
-
-.floatR
-{
-    text-align: justify;
-    padding-top: .2em;
-}
-
-.externalLink
-{
-    color: orange;
-}
-
-.clearNewSection
-{
-    clear: both;
-    font-size: 1.1em;
+    font-family: sylfaen;
+    font-size: 1.5em;
+    margin-bottom: 5em;
+    text-align:justify;
 }
 
 
-#topMargin
+.fontstyleSections
 {
-    margin-top: 1px;
+    font-family: sylfaen;
+    font-size: 1.5em;
+    margin-bottom: 5em;
+}
+
+
+Table
+{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: .9em;
+    table-layout: fixed;
 }
 
 
 
 th
 {
-    border: 1px solid #d38407;
+    border: 1px solid #97368f;
     text-align: center;
-    background-color: #b2b2b2;
+    background-color: darkgrey;
 }
 
 tr, td
 {
-    border: 1px solid #d38407;
+    border: 1px solid #97368f;
     text-align: center;
 }
 
@@ -307,49 +267,6 @@ Table tr:nth-child(even)
     background-color: #edecec;
 }
 
-#floatedImgR
-{
-    text-align: right;
-    float: right;
-    margin-left: 2em;
-    margin-bottom: 2em;
-}
-
-#floatL
-{
-    text-align: justify;
-    padding-top: 1.8em;
-}
-
-#lastSection
-{
-    margin-bottom: 50px;
-}
-
-
-.h3headingtop
-{
-    text-align: center;
-    margin-top: 1px;
-}
-
-.h3headingbottom
-{
-    text-align: center;
-    margin-top: 98px;
-}
-
-#storyText
-{
-    text-align: justify;
-    padding-top: .5em;
-}
-
-#features
-{
-    text-align: justify;
-    padding-top: 6em;
-}
 
 #visualColumn
 {
@@ -357,7 +274,7 @@ Table tr:nth-child(even)
     font-size: .8em;
     column-count: 2;
     column-gap: 5%;
-    column-rule: 1px solid orange;
+    column-rule: 1px solid #97368f;
     text-align: justify;
     margin-bottom: 2em;
 }
@@ -369,6 +286,13 @@ Table tr:nth-child(even)
     margin-bottom: 10px;
 }
 
+#contactForm
+{
+    font-family: sylfaen;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 
 #form
@@ -376,8 +300,8 @@ Table tr:nth-child(even)
     font-family: sylfaen;
     text-align: justify;
     padding: 20px;
-    border: 2px solid orange;
-    min-height: 1570px;
+    border: 2px solid #97368f;
+    min-height: 500px;
     width: 700px;
 }
 
@@ -431,8 +355,9 @@ input[type="checkbox"]
 {
     margin-top: .5em;
     width: 8em;
-    background-color: orange;
+    background-color: #97368f;
     border: 2px solid black;
+    color:  white;
 }
 
 .formPageTitles
@@ -441,7 +366,3 @@ input[type="checkbox"]
     float: right;
 }
 
-.orangeBorder
-{
-    border: 2px solid orange;
-}
